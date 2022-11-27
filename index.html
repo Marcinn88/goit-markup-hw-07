@@ -18,60 +18,60 @@
   <body>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn" data-modal-close>
-          <svg class="close-x" width="11" height="11">
+        <button class="modal__btn" data-modal-close>
+          <svg class="modal__close-btn" width="11" height="11">
             <use href="./images/sprite.svg#close-x"></use>
           </svg>
         </button>
-        <h1 class="modal-header">Zostaw swoje dane w formularzu poniżej</h1>
+        <h1 class="modal__header">Zostaw swoje dane w formularzu poniżej</h1>
         <form>
-          <label class="modal-label" for="name">Imię</label>
-          <div id="name" class="modal-fs modal-size">
-            <input name="Name-form" class="modal-input" type="text" />
+          <label class="modal__label" for="name">Imię</label>
+          <div id="name" class="modal__fieldset">
+            <input name="Name-form" class="modal__input" type="text" />
             <svg width="12" height="12">
               <use href="./images/icons.svg#ico-name"></use>
             </svg>
           </div>
 
-          <label class="modal-label" for="phone">Telefon</label>
-          <div id="phone" class="modal-fs modal-size">
-            <input name="Phone-form" class="modal-input" type="tel" />
+          <label class="modal__label" for="phone">Telefon</label>
+          <div id="phone" class="modal__fieldset">
+            <input name="Phone-form" class="modal__input" type="tel" />
             <svg width="13" height="13">
               <use href="./images/icons.svg#ico-phone"></use>
             </svg>
           </div>
 
-          <label class="modal-label" for="email">Email</label>
-          <div id="email" class="modal-fs modal-size">
-            <input name="Mail-form" class="modal-input" type="email" />
+          <label class="modal__label" for="email">Email</label>
+          <div id="email" class="modal__fieldset">
+            <input name="Mail-form" class="modal__input" type="email" />
             <svg width="15" height="12">
               <use href="./images/icons.svg#ico-mail"></use>
             </svg>
           </div>
 
-          <label class="modal-label" for="comment">Komentarz</label>
-          <div id="comment" class="textarea-fs textarea-size">
+          <label class="modal__label" for="comment">Komentarz</label>
+          <div id="comment" class="modal__textarea-fieldset">
             <textarea
               name="Comment-form"
-              class="modal-input textarea"
+              class="modal__input modal__textarea"
               placeholder="Wprowadź tekst"
             ></textarea>
           </div>
-          <div class="modal-checkbox">
-            <label class="checkbox-label"
+          <div class="modal__checkbox">
+            <label class="modal__checkbox-label"
               ><input type="checkbox" name="checkbox" />
-              <svg class="checked-ico" width="16" height="16">
+              <svg class="modal__ico--checked" width="18" height="18">
                 <use href="./images/icons.svg#ico-checked"></use>
               </svg>
-              <div class="unchecked-ico"></div>
+              <div class="modal__ico--unchecked"></div>
               <p>
                 Oświadczam iż akceptuję <a href="#Regulamin">Regulamin</a> i
                 <a href="#Polityka">Politykę Prywatności.</a>
               </p>
             </label>
           </div>
-          <div class="modal-button-container">
-            <button class="modal-button" type="submit">Wyślij</button>
+          <div class="modal__button-container">
+            <button class="modal__button" type="submit">Wyślij</button>
           </div>
         </form>
       </div>
@@ -124,13 +124,13 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="banner">
         <h1>
           Efektywne rozwiązania <br />
           dla waszego biznesu
         </h1>
 
-        <button class="main_button" type="button" data-modal-open>
+        <button class="banner__button" type="button" data-modal-open>
           Zamów usługę
         </button>
       </section>
