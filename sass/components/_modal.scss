@@ -76,12 +76,13 @@
   height: 40px;
   position: relative;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  & svg {
-    fill: black;
-    position: absolute;
-    left: 15px;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+}
+
+.modal__ico {
+  fill: black;
+  position: absolute;
+  left: 15px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__textarea-fieldset:has(.textarea:focus),
@@ -139,22 +140,22 @@ textarea::placeholder {
   justify-content: space-evenly;
   position: relative;
   align-items: center;
-  & input {
-    z-index: 101;
-    opacity: 0;
-    width: 16px;
-    margin-inline: 10px;
-    outline: 3px black;
-  }
-  & p {
-    font-size: 14px;
-    line-height: 1, 7;
-    letter-spacing: 0.03em;
-    color: var(--second-color);
-  }
-  & a {
-    color: var(--logo-color);
-  }
+}
+.modal__check-input {
+  z-index: 101;
+  opacity: 0;
+  width: 16px;
+  margin-inline: 10px;
+  outline: 3px black;
+}
+.modal__rule-information {
+  font-size: 14px;
+  line-height: 1, 7;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+.modal__rule-information--color {
+  color: var(--logo-color);
 }
 
 .modal__ico--checked {

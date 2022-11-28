@@ -5,12 +5,10 @@
   margin-bottom: 94px;
 }
 .portfolio-nav {
-  & ul {
-    list-style: none;
-    display: inline-flex;
-    gap: 8px;
-    margin-top: 94px;
-  }
+  list-style: none;
+  display: inline-flex;
+  gap: 8px;
+  margin-top: 94px;
 }
 .portfolio-nav__button {
   width: 121px;

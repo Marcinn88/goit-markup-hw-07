@@ -34,26 +34,26 @@
   display: flex;
   gap: 30px;
   text-align: left;
-  & h3 {
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--third-color);
-  }
-  & p {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: var(--second-color);
-  }
-  & li {
-    width: 270px;
-    height: 101px;
-  }
-  & li p {
-    width: 270px;
-    height: 75px;
-  }
+}
+
+.property__title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--third-color);
+}
+
+.property__information {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+  width: 270px;
+  height: 75px;
+}
+.property__textbox {
+  width: 270px;
+  height: 101px;
 }
