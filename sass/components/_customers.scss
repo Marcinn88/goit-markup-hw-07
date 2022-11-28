@@ -1,4 +1,4 @@
-.customers {
+.customers__list {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -28,13 +28,13 @@
     border: var(--logo-color) 1px solid;
     cursor: pointer;
   }
-  &:hover svg {
-    fill: var(--logo-color);
-    cursor: pointer;
-  }
 }
 
 .customer__icon {
   fill: var(--ico-color);
   cursor: pointer;
+  &:hover {
+    fill: var(--logo-color);
+    cursor: pointer;
+  }
 }
